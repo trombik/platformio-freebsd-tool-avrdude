@@ -15,7 +15,7 @@ if [ ! -z $1 ]; then
 fi
 
 ln -s -f ${PREFIX}/bin/avrdude .
-ln -s -f ${PREFIX}/bin/avrdude.conf .
+ln -s -f ${PREFIX}/etc/avrdude.conf .
 
 cat <<__EOF__ >package.json
 {
