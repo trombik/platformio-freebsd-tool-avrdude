@@ -1,4 +1,3 @@
 #!/bin/sh
 
-rm -f avrdude avrdude.conf
-rm -f package.json
+rm -f avrdude package.json avrdude.conf
